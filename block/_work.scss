@@ -1,0 +1,84 @@
+.work{
+    width: 90%;
+    background-color: #F3F6F9;
+    border-radius: 50px;
+    padding: 50px;
+    .mini-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .h3{
+            /* Услуги */
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 100%;
+            /* or 94px */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.04em;
+
+            /* #142251 */
+            color: #142251;
+        }
+        .a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+            .a-text{
+                /* Когда другие бессильны - мы делаем */
+                width: 250px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 120%;
+                /* or 36px */
+                letter-spacing: -0.03em;
+
+                /* #AFB4C4 */
+                color: #989EB1;
+            }
+        }
+    }
+    .exam{
+        display: flex;
+        gap: 5px;
+        margin-top: 20px;
+        .part{
+            width: 310px;
+            padding: 5px 0px 20px 5px;
+            background-color: white;
+            border-radius: 20px;
+            .h4{
+            margin-left: 10px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 90%;
+            /* or 31px */
+            letter-spacing: -0.04em;
+
+            /* #142251 */
+            color: #142251;
+        }
+        .text{
+            margin-left: 10px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 100%;
+            /* identical to box height, or 17px */
+            letter-spacing: -0.04em;
+
+            color: #142251;
+
+        }
+        }
+    }
+}

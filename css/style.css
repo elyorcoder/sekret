@@ -1,0 +1,273 @@
+@charset "UTF-8";
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1400px;
+  height: auto;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid gray;
+}
+nav .words {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  gap: 20px;
+}
+nav .words a {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.03em;
+  color: #142251;
+}
+nav .nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+  border: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.03em;
+  color: #213887;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.intro .intro-left .h1 {
+  margin-top: 20px;
+  width: 500px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 85%;
+  letter-spacing: -0.04em;
+  color: #142251;
+}
+.intro .intro-left .h1 .h1-span {
+  color: gray;
+}
+.intro .intro-left .intro-text {
+  margin-top: 15px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #989EB1;
+}
+.intro .intro-left .intro-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  background: rgba(33, 56, 135, 0.06);
+  border-radius: 8px;
+  border: none;
+}
+
+.who {
+  margin-bottom: 100px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.who .h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  /* identical to box height, or 94px */
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #142251;
+}
+.who .who-p {
+  /* О нас не пишут рейтинговые агентства и поисковые системы */
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 310px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* or 41px */
+  text-align: center;
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989EB1;
+}
+.who .pos {
+  /* 2. Применяем агентскую сеть по всему миру */
+  position: absolute;
+  top: 470px;
+  width: 200px;
+  left: 420px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 34px */
+  letter-spacing: -0.04em;
+  text-align: left;
+  /* #AFB4C4 */
+  color: #142251;
+}
+.who .pos .number {
+  color: gray;
+}
+.who .pos-2 {
+  position: absolute;
+  top: 180px;
+  width: 270px;
+  right: 245px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 34px */
+  letter-spacing: -0.04em;
+  text-align: left;
+  /* #AFB4C4 */
+  color: #142251;
+}
+.who .pos-2 .number {
+  color: gray;
+}
+.who .pos-3 {
+  position: absolute;
+  bottom: 100px;
+  width: 170px;
+  left: 1150px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 34px */
+  letter-spacing: -0.04em;
+  text-align: left;
+  /* #AFB4C4 */
+  color: #142251;
+}
+.who .pos-3 .number {
+  color: gray;
+}
+
+.work {
+  width: 90%;
+  background-color: #F3F6F9;
+  border-radius: 50px;
+  padding: 50px;
+}
+.work .mini-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work .mini-nav .h3 {
+  /* Услуги */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  /* or 94px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  /* #142251 */
+  color: #142251;
+}
+.work .mini-nav .a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.work .mini-nav .a .a-text {
+  /* Когда другие бессильны - мы делаем */
+  width: 250px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 120%;
+  /* or 36px */
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989EB1;
+}
+.work .exam {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+.work .exam .part {
+  width: 310px;
+  padding: 5px 0px 20px 5px;
+  background-color: white;
+  border-radius: 20px;
+}
+.work .exam .part .h4 {
+  margin-left: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 90%;
+  /* or 31px */
+  letter-spacing: -0.04em;
+  /* #142251 */
+  color: #142251;
+}
+.work .exam .part .text {
+  margin-left: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  /* identical to box height, or 17px */
+  letter-spacing: -0.04em;
+  color: #142251;
+}/*# sourceMappingURL=style.css.map */

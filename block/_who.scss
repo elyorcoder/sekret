@@ -1,0 +1,99 @@
+.who{
+    margin-bottom: 100px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .h2{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        /* identical to box height, or 94px */
+        text-align: center;
+        letter-spacing: -0.04em;
+
+        color: #142251;
+    }
+    .who-p{
+        /* О нас не пишут рейтинговые агентства и поисковые системы */
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 310px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 41px */
+        text-align: center;
+        letter-spacing: -0.03em;
+
+        /* #AFB4C4 */
+        color: #989EB1;
+
+
+    }
+    .pos{
+                /* 2. Применяем агентскую сеть по всему миру */
+
+        position: absolute;
+        top: 470px;
+        width: 200px;
+        left: 420px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        /* or 34px */
+        letter-spacing: -0.04em;
+        text-align: left;
+        /* #AFB4C4 */
+        color: #142251;
+        .number{
+            color: gray;
+        }
+    }
+    .pos-2{
+        position: absolute;
+        top: 180px;
+        width: 270px;
+        right: 245px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        /* or 34px */
+        letter-spacing: -0.04em;
+        text-align: left;
+        /* #AFB4C4 */
+        color: #142251;
+        .number{
+            color: gray;
+        }
+    }
+    .pos-3{
+        position: absolute;
+        bottom: 100px;
+        width: 170px;
+        left: 1150px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        /* or 34px */
+        letter-spacing: -0.04em;
+        text-align: left;
+        /* #AFB4C4 */
+        color: #142251;
+        .number{
+            color: gray;
+        }
+    }
+}
