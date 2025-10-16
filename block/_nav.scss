@@ -43,4 +43,31 @@ nav{
 
         color: #213887;
     }
+    .burger{
+        display: none;
+        gap: 3px;
+        width: 22px;
+        height: 15px;
+        flex-direction: column;
+        .item{
+            width: 22px;
+            height: 3px;
+            border-radius: 3px;
+            background-color: black;
+        }
+    }
+}
+@media only screen and (max-width:500px){
+    .burger{
+        display: flex;
+    }
+    .words{
+        display: none;
+        a{
+            display: none;
+        }
+    }
+    .nav-btn{
+        display: none;
+    }
 }
