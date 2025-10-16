@@ -40,3 +40,39 @@
         }
     }
 }
+.button{
+    display: none;
+}
+@media only screen and (max-width:500px){
+    .h1{
+        width: 320px !important;
+        font-weight: 500 !important;
+        font-size: 40px !important;
+    }
+    .intro-text{
+        width: 290px;
+        font-size: 14px;
+    }
+    .pic{
+        width: 340px;
+        height: 280px;
+    }
+    .intro{
+        width: 90% !important;
+        margin: auto;
+        flex-direction: column;
+    }
+    .intro-btn{
+        display: none !important;
+    }
+    .button{
+        display: inline-block !important;
+        background: rgba(33, 56, 135, 0.06);
+        border: none;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+    }
+}

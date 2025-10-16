@@ -14,11 +14,17 @@ a {
   margin: auto;
 }
 
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    width: 100%;
+  }
+}
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   height: 100px;
   border-bottom: 1px solid gray;
 }
@@ -74,16 +80,17 @@ nav .burger .item {
 
 @media only screen and (max-width: 500px) {
   .burger {
-    display: flex;
+    display: flex !important;
   }
   .words {
-    display: none;
-  }
-  .words a {
-    display: none;
+    display: none !important;
   }
   .nav-btn {
-    display: none;
+    display: none !important;
+  }
+  .image {
+    width: 130px;
+    height: 20px;
   }
 }
 .intro {
@@ -127,9 +134,46 @@ nav .burger .item {
   border: none;
 }
 
+.button {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .h1 {
+    width: 320px !important;
+    font-weight: 500 !important;
+    font-size: 40px !important;
+  }
+  .intro-text {
+    width: 290px;
+    font-size: 14px;
+  }
+  .pic {
+    width: 340px;
+    height: 280px;
+  }
+  .intro {
+    width: 90% !important;
+    margin: auto;
+    flex-direction: column;
+  }
+  .intro-btn {
+    display: none !important;
+  }
+  .button {
+    display: inline-block !important;
+    background: rgba(33, 56, 135, 0.06);
+    border: none;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
 .who {
   margin-bottom: 100px;
-  width: 95%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,7 +248,7 @@ nav .burger .item {
 }
 .who .pos-3 {
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   width: 170px;
   left: 1150px;
   font-family: "Gilroy";
@@ -222,6 +266,75 @@ nav .burger .item {
   color: gray;
 }
 
+.p1 {
+  width: 110% !important;
+  height: 160px;
+  margin: auto;
+}
+
+.m1 {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+
+.d1 {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+  width: 100%;
+  height: 160px;
+  background-color: rgba(33, 56, 135, 0.06);
+  align-items: center;
+  border-radius: 10px;
+}
+
+.t1 {
+  /* Применяем агентскую сеть по всему миру */
+  width: 137px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 120%;
+  /* or 20px */
+  letter-spacing: -0.02em;
+  /* #142251 */
+  color: #142251;
+}
+
+@media only screen and (max-width: 500px) {
+  .h2 {
+    font-size: 40px !important;
+    text-align: left !important;
+  }
+  .who-p {
+    width: 270px;
+    font-size: 20px !important;
+    text-align: left !important;
+  }
+  .who {
+    margin-top: 50px !important;
+    margin: auto;
+    align-items: start;
+  }
+  .pi {
+    display: none;
+  }
+  .pos {
+    display: none;
+  }
+  .pos-2 {
+    display: none;
+  }
+  .pos-3 {
+    display: none;
+  }
+  .m1 {
+    display: flex !important;
+  }
+}
 .work {
   width: 90%;
   background-color: #F3F6F9;
@@ -302,6 +415,48 @@ nav .burger .item {
   color: #142251;
 }
 
+@media only screen and (max-width: 500px) {
+  .a {
+    width: 270px;
+    justify-content: start !important;
+  }
+  .h3 {
+    font-size: 40px;
+    width: 100% !important;
+  }
+  .a-text {
+    text-align: start !important;
+    width: 100% !important;
+    font-size: 14px !important;
+  }
+  .mini-nav {
+    margin-left: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    text-align: start !important;
+  }
+  .p3 {
+    display: none;
+  }
+  .work {
+    width: 90% !important;
+    margin: auto !important;
+    padding: 0px;
+  }
+  .exam {
+    margin-left: 30px;
+    flex-direction: column;
+    width: 90%;
+  }
+  .pard {
+    width: 70% !important;
+  }
+  .p4 {
+    width: 95%;
+  }
+}
 .how {
   margin-top: 150px;
   width: 90%;
