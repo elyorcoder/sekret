@@ -420,9 +420,15 @@ nav .burger .item {
     width: 270px;
     justify-content: start !important;
   }
+  .h4 {
+    margin-left: 0px !important;
+  }
   .h3 {
     font-size: 40px;
     width: 100% !important;
+  }
+  .text {
+    margin-left: 0px !important;
   }
   .a-text {
     text-align: start !important;
@@ -430,7 +436,7 @@ nav .burger .item {
     font-size: 14px !important;
   }
   .mini-nav {
-    margin-left: 50px;
+    margin-left: 20px;
     flex-wrap: wrap;
     width: 100%;
     align-items: start;
@@ -441,9 +447,10 @@ nav .burger .item {
     display: none;
   }
   .work {
+    border-radius: 10px;
     width: 90% !important;
     margin: auto !important;
-    padding: 0px;
+    padding: 0px 0px 10px 0px;
   }
   .exam {
     margin-left: 30px;
@@ -451,6 +458,7 @@ nav .burger .item {
     width: 90%;
   }
   .pard {
+    padding: 0px;
     width: 70% !important;
   }
   .p4 {
@@ -490,6 +498,11 @@ nav .burger .item {
   padding: 10px 20px;
 }
 
+@media only screen and (max-width: 500px) {
+  .how {
+    display: none;
+  }
+}
 .clients {
   width: 90%;
   height: 800px;
@@ -564,6 +577,11 @@ nav .burger .item {
   color: #989EB1;
 }
 
+@media only screen and (max-width: 500px) {
+  .clients {
+    display: none;
+  }
+}
 .about {
   width: 90%;
   margin-top: 50px;
@@ -638,6 +656,11 @@ nav .burger .item {
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 500px) {
+  .about {
+    display: none;
+  }
+}
 .footer {
   border-top: 1px solid rgb(200, 200, 200);
   display: flex;
@@ -716,4 +739,10 @@ nav .burger .item {
   letter-spacing: -0.04em;
   /* #AFB4C4 */
   color: #989EB1;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

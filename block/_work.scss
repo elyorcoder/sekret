@@ -87,9 +87,15 @@
         width: 270px;
         justify-content: start !important;
     }
+    .h4{
+        margin-left: 0px !important;
+    }
     .h3{
         font-size: 40px;
         width: 100% !important;
+    }
+    .text{
+        margin-left: 0px !important;
     }
     .a-text{
         text-align: start !important;
@@ -97,7 +103,7 @@
         font-size: 14px !important;
     }
     .mini-nav{
-        margin-left: 50px;
+        margin-left: 20px;
         flex-wrap: wrap;
         width: 100%;
         align-items: start;
@@ -108,9 +114,10 @@
         display: none;
     }
     .work{
+        border-radius: 10px;
         width: 90% !important;
         margin: auto !important;
-        padding: 0px;
+        padding: 0px 0px 10px 0px;
     }
     .exam{
         margin-left: 30px;
@@ -118,6 +125,7 @@
         width: 90%;
     }
     .pard{
+        padding: 0px;
         width: 70% !important;
     }
     .p4{
