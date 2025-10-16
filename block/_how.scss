@@ -1,0 +1,33 @@
+.how{
+    margin-top: 150px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .h1{
+        width: 300px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 100%;
+        /* or 84px */
+        letter-spacing: -0.04em;
+
+        color: #142251; 
+    }
+    .helper{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        .block{
+            width: 200px;
+            border-radius: 10px;
+            background-color: transparent;
+            border: 1px solid rgb(170, 170, 170);
+            padding: 10px 20px;
+        }
+    }
+}

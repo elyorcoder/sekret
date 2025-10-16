@@ -21,6 +21,9 @@ nav{
             letter-spacing: -0.03em;
 
             color: #142251;
+            &:hover{
+                color: #213887;
+            }
         }
     }
     .nav-btn{

@@ -39,6 +39,9 @@ nav .words a {
   letter-spacing: -0.03em;
   color: #142251;
 }
+nav .words a:hover {
+  color: #213887;
+}
 nav .nav-btn {
   display: flex;
   align-items: center;
@@ -66,7 +69,7 @@ nav .nav-btn {
   width: 500px;
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 60px;
   line-height: 85%;
   letter-spacing: -0.04em;
@@ -109,7 +112,7 @@ nav .nav-btn {
 .who .h2 {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 60px;
   line-height: 100%;
   /* identical to box height, or 94px */
@@ -207,7 +210,7 @@ nav .nav-btn {
   /* Услуги */
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 60px;
   line-height: 100%;
   /* or 94px */
@@ -270,4 +273,265 @@ nav .nav-btn {
   /* identical to box height, or 17px */
   letter-spacing: -0.04em;
   color: #142251;
+}
+
+.how {
+  margin-top: 150px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how .h1 {
+  width: 300px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100%;
+  /* or 84px */
+  letter-spacing: -0.04em;
+  color: #142251;
+}
+.how .helper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.how .helper .block {
+  width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(170, 170, 170);
+  padding: 10px 20px;
+}
+
+.clients {
+  width: 90%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background-size: 75% 60%;
+  padding: 50px;
+  background-color: #F2F3F8;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-image: url(../img/graphic.png);
+}
+.clients .h6 {
+  width: 185px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 90%;
+  /* or 76px */
+  letter-spacing: -0.04em;
+  color: #142251;
+}
+.clients .super {
+  width: 56%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.clients .super .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: white;
+}
+.clients .super .container .min {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+}
+.clients .super .container .gray {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  /* identical to box height, or 48px */
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989EB1;
+}
+.clients .p {
+  width: 245px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  /* or 41px */
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989EB1;
+}
+
+.about {
+  width: 90%;
+  margin-top: 50px;
+  padding: 50px;
+  position: relative;
+}
+.about .about-h {
+  /* Связаться с нами */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100%;
+  /* identical to box height, or 84px */
+  letter-spacing: -0.04em;
+  color: #142251;
+  margin-bottom: 80px;
+}
+.about .lab {
+  /* Меня зовут */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 400%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.03em;
+  margin-left: 5px;
+  color: #142251;
+}
+.about .inp {
+  border: none;
+  border-bottom: 1px solid gray !important;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.03em;
+  margin-left: 10px;
+}
+.about .dis {
+  position: absolute;
+  left: 460px;
+  bottom: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .dis .mini-p {
+  /* Согласие на обработку персональных данных */
+  width: 245.13px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 27px */
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989EB1;
+}
+.about .dis .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+  border: none;
+  background: rgba(33, 56, 135, 0.06);
+  border-radius: 5px;
+}
+
+.footer {
+  border-top: 1px solid rgb(200, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 50px;
+}
+.footer .play {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 35px;
+  padding: 20px;
+}
+.footer .play .logo {
+  /* whatsapp */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: #142251;
+}
+.footer .play .email {
+  /* Adrasteia@mail.com */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.03em;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: #213887;
+}
+.footer .under {
+  /* Политика конфиденциальности */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.04em;
+  text-decoration-line: underline;
+  /* #AFB4C4 */
+  color: #989EB1;
+}
+.footer .blue {
+  /* Дизайн и разработка - Karanikola */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.04em;
+  text-decoration-line: underline;
+  color: #213887;
+}
+.footer .num {
+  /* © 2022 */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.04em;
+  /* #AFB4C4 */
+  color: #989EB1;
 }/*# sourceMappingURL=style.css.map */
