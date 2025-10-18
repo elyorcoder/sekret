@@ -1,52 +1,76 @@
-.how{
-    margin-top: 150px;
-    width: 90%;
+.how {
+  margin-top: 150px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .h1 {
+    width: 300px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    /* or 84px */
+    letter-spacing: -0.04em;
+
+    color: #142251;
+  }
+}
+.helper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.block {
+  width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(170, 170, 170);
+  padding: 10px 20px;
+}
+// .help{
+//     margin-top: 20px;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 5px;
+//   justify-content: center;
+// }
+.hh1 {
+  /* Как мы работаем */
+  text-align: center;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 40px;
+  /* identical to box height, or 34px */
+  color: #142251;
+}
+.ho2 {
+  display: none;
+  width: 90%;
+  margin:50px auto;
+}
+.help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .ho2{
+    display: block;
+  }
+  .how {
+    display: none;
+  }
+  .block {
     display: flex;
     justify-content: center;
     align-items: center;
-    .h1{
-        width: 300px;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 60px;
-        line-height: 100%;
-        /* or 84px */
-        letter-spacing: -0.04em;
-
-        color: #142251; 
-    }
-    .helper{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        justify-content: center;
-        .block{
-            width: 200px;
-            border-radius: 10px;
-            background-color: transparent;
-            border: 1px solid rgb(170, 170, 170);
-            padding: 10px 20px;
-        }
-    }
-}
-// .hh1{
-//     /* Как мы работаем */
-//     text-align: center;
-//     position: absolute;
-//     font-family: 'Gilroy';
-//     font-weight: 400;
-//     font-size: 40px;
-//     /* identical to box height, or 34px */
-//     color: #142251;
-// }
-// .ho2{
-//     width: 90%;
-//     margin: auto;
-// }
-@media only screen and (max-width:500px){
-    .how{
-        display: none;
-    }
+    gap: 50px;
+    width: 90%;
+  }
 }

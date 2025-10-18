@@ -38,7 +38,7 @@ nav .words {
 nav .words a {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 100%;
   /* identical to box height, or 20px */
@@ -46,7 +46,7 @@ nav .words a {
   color: #142251;
 }
 nav .words a:hover {
-  color: #213887;
+  color: #3d6aff;
 }
 nav .nav-btn {
   display: flex;
@@ -483,14 +483,16 @@ nav .burger .item {
   letter-spacing: -0.04em;
   color: #142251;
 }
-.how .helper {
+
+.helper {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
   justify-content: center;
 }
-.how .helper .block {
+
+.block {
   width: 200px;
   border-radius: 10px;
   background-color: transparent;
@@ -498,9 +500,43 @@ nav .burger .item {
   padding: 10px 20px;
 }
 
+.hh1 {
+  /* Как мы работаем */
+  text-align: center;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 40px;
+  /* identical to box height, or 34px */
+  color: #142251;
+}
+
+.ho2 {
+  display: none;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
 @media only screen and (max-width: 500px) {
+  .ho2 {
+    display: block;
+  }
   .how {
     display: none;
+  }
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 90%;
   }
 }
 .clients {
@@ -510,7 +546,7 @@ nav .burger .item {
   justify-content: center;
   background-size: 75% 60%;
   padding: 50px;
-  background-color: #F2F3F8;
+  background-color: #f2f3f8;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-image: url(../img/graphic.png);
@@ -562,7 +598,7 @@ nav .burger .item {
   /* identical to box height, or 48px */
   letter-spacing: -0.03em;
   /* #AFB4C4 */
-  color: #989EB1;
+  color: #989eb1;
 }
 .clients .p {
   width: 245px;
@@ -574,12 +610,53 @@ nav .burger .item {
   /* or 41px */
   letter-spacing: -0.03em;
   /* #AFB4C4 */
-  color: #989EB1;
+  color: #989eb1;
+}
+
+.pp {
+  display: none;
+  width: 258px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  margin: 20px 0;
+  /* or 41px */
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989eb1;
 }
 
 @media only screen and (max-width: 500px) {
   .clients {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .h6 {
+    font-size: 40px !important;
+  }
+  .pp {
+    display: block;
+  }
+  .p {
     display: none;
+  }
+  .container {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .gray {
+    font-size: 16px !important;
+  }
+  .min {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .super {
+    width: 340px !important;
+    gap: 10px !important;
   }
 }
 .about {
@@ -632,20 +709,8 @@ nav .burger .item {
   align-items: center;
   justify-content: center;
 }
-.about .dis .mini-p {
-  /* Согласие на обработку персональных данных */
-  width: 245.13px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 150%;
-  /* or 27px */
-  letter-spacing: -0.03em;
-  /* #AFB4C4 */
-  color: #989EB1;
-}
-.about .dis .btn {
+
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -656,9 +721,75 @@ nav .burger .item {
   border-radius: 5px;
 }
 
+.mini-p {
+  /* Согласие на обработку персональных данных */
+  width: 245.13px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 27px */
+  letter-spacing: -0.03em;
+  /* #AFB4C4 */
+  color: #989eb1;
+}
+
+.hel {
+  display: none !important;
+}
+
+.inp2 {
+  display: none;
+  border: none;
+  border-bottom: 1px solid gray !important;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  width: 90%;
+  font-size: 16px;
+  line-height: 170%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.03em;
+  margin-left: 10px;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 500px) {
   .about {
+    padding: 20px !important;
+  }
+  .about-h {
+    font-size: 40px !important;
+    width: 205px !important;
+    margin-bottom: 0px !important;
+  }
+  .inp2 {
+    display: block;
+    margin-bottom: 10px !important;
+  }
+  .inp {
     display: none;
+  }
+  .lab {
+    display: none;
+  }
+  .dis {
+    display: none !important;
+  }
+  .btn {
+    width: 90%;
+  }
+  .hel {
+    display: block !important;
+    margin-top: 20px;
   }
 }
 .footer {
@@ -714,7 +845,7 @@ nav .burger .item {
   letter-spacing: -0.04em;
   text-decoration-line: underline;
   /* #AFB4C4 */
-  color: #989EB1;
+  color: #989eb1;
 }
 .footer .blue {
   /* Дизайн и разработка - Karanikola */
@@ -738,11 +869,23 @@ nav .burger .item {
   /* identical to box height, or 20px */
   letter-spacing: -0.04em;
   /* #AFB4C4 */
-  color: #989EB1;
+  color: #989eb1;
 }
 
 @media only screen and (max-width: 500px) {
   .footer {
-    display: none;
+    padding: 20px !important;
+  }
+  .play {
+    display: none !important;
+  }
+  .under {
+    font-size: 12px !important;
+  }
+  .blue {
+    font-size: 12px !important;
+  }
+  .num {
+    font-size: 12px !important;
   }
 }/*# sourceMappingURL=style.css.map */

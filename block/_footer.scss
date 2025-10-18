@@ -1,89 +1,101 @@
-.footer{
-    border-top: 1px solid rgb(200, 200, 200);
+.footer {
+  border-top: 1px solid rgb(200, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 50px;
+  .play {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 90%;
-    padding: 50px;
-    .play{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 45%;
-        border: 1px solid rgb(200, 200, 200);
-        border-radius: 35px;
-        padding: 20px;
-        .logo{
-            /* whatsapp */
-            font-family: 'Gilroy';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 100%;
-            /* identical to box height, or 34px */
-            letter-spacing: -0.03em;
-            text-transform: lowercase;
+    align-items: center;
+    width: 45%;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 35px;
+    padding: 20px;
+    .logo {
+      /* whatsapp */
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 100%;
+      /* identical to box height, or 34px */
+      letter-spacing: -0.03em;
+      text-transform: lowercase;
 
-            color: #142251;
-        }
-        .email{
-            /* Adrasteia@mail.com */
-            font-family: 'Gilroy';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 100%;
-            /* identical to box height, or 34px */
-            letter-spacing: -0.03em;
-            text-decoration-line: underline;
-            text-transform: lowercase;
-
-            color: #213887;
-        }
+      color: #142251;
     }
-    .under{
-        /* Политика конфиденциальности */
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 110%;
-        /* identical to box height, or 20px */
-        letter-spacing: -0.04em;
-        text-decoration-line: underline;
+    .email {
+      /* Adrasteia@mail.com */
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 100%;
+      /* identical to box height, or 34px */
+      letter-spacing: -0.03em;
+      text-decoration-line: underline;
+      text-transform: lowercase;
 
-        /* #AFB4C4 */
-        color: #989EB1;
+      color: #213887;
     }
-    .blue{
-        /* Дизайн и разработка - Karanikola */
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 100%;
-        /* identical to box height, or 20px */
-        letter-spacing: -0.04em;
-        text-decoration-line: underline;
+  }
+  .under {
+    /* Политика конфиденциальности */
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+    letter-spacing: -0.04em;
+    text-decoration-line: underline;
 
-        color: #213887;
-    }
-    .num{
-        /* © 2022 */
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 100%;
-        /* identical to box height, or 20px */
-        letter-spacing: -0.04em;
+    /* #AFB4C4 */
+    color: #989eb1;
+  }
+  .blue {
+    /* Дизайн и разработка - Karanikola */
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    letter-spacing: -0.04em;
+    text-decoration-line: underline;
 
-        /* #AFB4C4 */
-        color: #989EB1;
-    }
+    color: #213887;
+  }
+  .num {
+    /* © 2022 */
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    letter-spacing: -0.04em;
+
+    /* #AFB4C4 */
+    color: #989eb1;
+  }
 }
-@media only screen and (max-width:500px){
-    .footer{
-        display: none;
-    }
+@media only screen and (max-width: 500px) {
+  .footer {
+    padding: 20px !important;
+  }
+  .play{
+    display: none !important;
+  }
+  .under{
+    font-size: 12px !important;
+  }
+  .blue{
+    font-size: 12px !important;
+  }
+  .num{
+    font-size: 12px !important;
+  }
 }

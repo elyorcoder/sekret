@@ -1,79 +1,128 @@
-.about{
-    width: 90%;
-    margin-top: 50px;
-    padding: 50px;
-    position: relative;
-    .about-h{
-        /* Связаться с нами */
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 60px;
-        line-height: 100%;
-        /* identical to box height, or 84px */
-        letter-spacing: -0.04em;
-        color: #142251;
-        margin-bottom: 80px;
-    }
-    .lab{
-        /* Меня зовут */
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 400%;
-        /* identical to box height, or 34px */
-        letter-spacing: -0.03em;
-        margin-left: 5px;
-        color: #142251;
-    }
-    .inp{
-        border: none;
-        border-bottom: 1px solid gray !important;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 100%;
-        /* identical to box height, or 34px */
-        letter-spacing: -0.03em;
-        margin-left: 10px;
-    }
-    .dis{
-        position: absolute;
-        left: 460px;
-        bottom: 75px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .mini-p{
-            /* Согласие на обработку персональных данных */
-            width: 245.13px;
-            font-family: 'Gilroy';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 150%;
-            /* or 27px */
-            letter-spacing: -0.03em;
-
-            /* #AFB4C4 */
-            color: #989EB1;
-        }
-        .btn{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 50px;
-            padding: 10px;
-            border: none;
-            background: rgba(33, 56, 135, 0.06);
-            border-radius: 5px;
-        }
-    }
+.about {
+  width: 90%;
+  margin-top: 50px;
+  padding: 50px;
+  position: relative;
+  .about-h {
+    /* Связаться с нами */
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    /* identical to box height, or 84px */
+    letter-spacing: -0.04em;
+    color: #142251;
+    margin-bottom: 80px;
+  }
+  .lab {
+    /* Меня зовут */
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 400%;
+    /* identical to box height, or 34px */
+    letter-spacing: -0.03em;
+    margin-left: 5px;
+    color: #142251;
+  }
+  .inp {
+    border: none;
+    border-bottom: 1px solid gray !important;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 34px */
+    letter-spacing: -0.03em;
+    margin-left: 10px;
+  }
+  .dis {
+    position: absolute;
+    left: 460px;
+    bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-@media only screen and (max-width:500px){
-    .about{
-        display: none;
-    }
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+  border: none;
+  background: rgba(33, 56, 135, 0.06);
+  border-radius: 5px;
+}
+.mini-p {
+  /* Согласие на обработку персональных данных */
+  width: 245.13px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 27px */
+  letter-spacing: -0.03em;
+
+  /* #AFB4C4 */
+  color: #989eb1;
+}
+.hel{
+  display: none !important;
+}
+.inp2 {
+  display: none;
+  border: none;
+  border-bottom: 1px solid gray !important;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  width: 90%;
+  font-size: 16px;
+  line-height: 170%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.03em;
+  margin-left: 10px;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .about {
+    padding: 20px !important;
+  }
+  .about-h {
+    font-size: 40px !important;
+    width: 205px !important;
+    margin-bottom: 0px !important;
+  }
+  .inp2 {
+    display: block;
+    margin-bottom: 10px !important;
+  }
+  .inp {
+    display: none;
+  }
+  .lab {
+    display: none;
+  }
+  .dis {
+    display: none !important;
+  }
+  .btn {
+    width: 90%;
+  }
+  .hel{
+    display: block !important;
+    margin-top: 20px;
+  }
 }
